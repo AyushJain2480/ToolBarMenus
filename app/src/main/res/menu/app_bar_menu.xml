@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom">
+<!--        ifroom if there is enough space than it will show with icon and if not than it will shown in extedible menu -->
+    </item>
+
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/ic_fav"
+        android:title="Favorites"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/prsnad"
+        android:icon="@drawable/ic_prsnad"
+        android:title="Add contact"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Give Feedback"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/close"
+        android:title="Close App"
+        app:showAsAction="never">
+    </item>
+
+
+</menu>
